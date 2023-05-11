@@ -28,6 +28,7 @@ let user:{
 
 ```typescript
 let fruits:string[];
+let variable:type[]; //provide `type` like strings, number etc.
 ```
 ## Boolean
 
@@ -35,4 +36,10 @@ let fruits:string[];
 let isReload :boolean = true
 ```
 
-
+## enum
+```typescript
+enum ROLES {
+  ADMIN,
+  AUTHOR
+}
+```

@@ -19,5 +19,19 @@
 // let fruits:string[];
 // fruits = ['mango','apple']
 // console.log(fruits)
-var isReload = true;
-console.log(isReload);
+/* tuples */
+// let role:[number,string] = [34,'weewfw'];  //it will accept only two things
+/* enums */
+var ROLES;
+(function (ROLES) {
+    ROLES[ROLES["ADMIN"] = 1] = "ADMIN";
+    ROLES[ROLES["AUTHOR"] = 2] = "AUTHOR";
+    ROLES[ROLES["GUEST"] = 3] = "GUEST";
+})(ROLES || (ROLES = {}));
+console.log(ROLES);
+function add() {
+    console.log(3 + 2);
+    return;
+}
+var ADD;
+add();

@@ -26,8 +26,28 @@
 // fruits = ['mango','apple']
 
 // console.log(fruits)
- 
-let isReload :boolean = true
-console.log(isReload)
+
+/* tuples */
+
+// let role:[number,string] = [34,'weewfw'];  //it will accept only two things
 
 
+/* enums */
+
+enum ROLES{
+    ADMIN=1,
+    AUTHOR,
+    GUEST
+}
+
+console.log(ROLES)
+
+function add():void{
+    console.log(3+2);
+    return 
+}
+
+let ADD:()=>number;
+
+
+add()
