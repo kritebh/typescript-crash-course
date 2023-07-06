@@ -1,4 +1,0 @@
-npm i -g typescript
-
-tsc --init -> generate a config file 
-tsc --watch -> compile live 
